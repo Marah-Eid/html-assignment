@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8" />
+    <title>Module 3 - Media and Embedded Content</title>
+
+  </head>
+
+  <body> 
+    <h2>My Favorite Song</h2>
+
+<audio controls autoplay muted preload="metadata">
+  <source src="audio/beat.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<audio controls loop preload="auto"> >
+  <source src="audio/beat.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio> 
+
+<h2> My favorite video </h2>
+
+<video controls width="400" poster="assets/drums.png" >
+  <source src="video/vid.mp4" type="video/mp4">
+  Your browser does not support the video tag. </video>
+
+
+  <video controls poster="assets/drums.png" width="400" autoplay muted loop>
+  <source src="video/vid.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<h2>Embeded content</h2>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+title="YouTube video player"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+<iframe
+  width="240"
+  height="315"
+  src="https://www.google.com/maps?q=China&output=embed"
+  title="Google Map of China">
+</iframe>
+
+
+</body>
