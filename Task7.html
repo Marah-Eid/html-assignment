@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 7</title>
+</head>
+<body>
+<h2>Images in Tables</h2>
+<hr>
+    <h3>What are your favorite pets?</h3>
+    <table width="50%" >
+        <tr>
+            <th style="border: 2px dotted black; width: 50%;">Pet Image</th>
+            <th style="border: 2px dotted black; width: 50%;">More Facts about (as a link)</th>
+        </tr>
+
+        <tr>    
+            <td style="border: 2px dotted black; width: 50%;"><img style="width: 30%; height: 30%; object-fit: cover;" alt="horse pic" src="assets/horse.png"></td>
+            <td style="border: 2px dotted black; width: 50%;"><a href="https://en.wikipedia.org/wiki/Horse">Horse</a></td>
+        </tr>
+        <tr>
+            <td style="border: 2px dotted black; width: 50%;"><img style="width: 30%; height: 30%; object-fit: cover;" alt="dog pic" src="assets/dog.png"></td>
+            <td style="border: 2px dotted black; width: 50%;"><a href="https://en.wikipedia.org/wiki/Dog">Dogs</a></td>
+        </tr>
+        <tr>
+            <td style="border: 2px dotted black; width: 50%;"><img style="width: 30%; height: 30%; object-fit: cover;" alt="cat pic" src="assets/cat.jpg"></td>
+            <td style="border: 2px dotted black; width: 50%;"><a href="https://en.wikipedia.org/wiki/Cat">Cats</a></td>
+        </tr>
+    </table>
+    <br> <br>
+    <table border ="2" width="60%" cellspacing="0" cellpadding="10">
+
+    
+    <tr>
+        <th colspan="6" style="font-size:30px;">Time Table</th>
+    </tr>
+
+    
+    <tr>
+        <th rowspan="6" style="font-size:26px;">Hours</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+    </tr>
+
+   
+    <tr>
+        <td>Math</td>
+        <td>Science</td>
+        <td>Math</td>
+        <td>Science</td>
+        <td>Arts</td>
+    </tr>
+
+    <tr>
+        <td>Math</td>
+        <td>Science</td>
+        <td>Math</td>
+        <td>Science</td>
+        <td>Arts</td>
+    </tr>
+
+   
+    <tr>
+        <th colspan="5" style="font-size:22px;">Lunch</th>
+    </tr>
+
+   
+    <tr>
+        <td>Math</td>
+        <td>Science</td>
+        <td>Math</td>
+        <td rowspan="2" colspan="2" style="font-size:24px;">Project</td>
+    </tr>
+
+    <tr>
+        <td>Math</td>
+        <td>Science</td>
+        <td>Math</td>
+    </tr>
+
+</table> <br> <br>
+
+<table border="5" width="70%" cellpadding="15" cellspacing="10">
+
+    
+    <tr>
+        <th colspan="2" style="font-size:40px;">
+            Language and Framworks
+        </th>
+    </tr>
+
+   
+    <tr>
+        <td style="font-size:35px;">Python</td>
+        <td style="font-size:35px;">Django</td>
+    </tr>
+
+    
+    <tr>
+        <td rowspan="2" style="font-size:35px;">Javascript</td>
+        <td style="font-size:35px;">React.js</td>
+    </tr>
+
+    <tr>
+        <td style="font-size:35px;">Vue.js</td>
+    </tr>
+
+    
+    <tr>
+        <td style="font-size:35px;">Ruby</td>
+        <td style="font-size:35px;">Ruby on Rails</td>
+    </tr>
+
+</table> <br> <br>
+
+<table border="2" width="70%" cellspacing="5" cellpadding="10">
+
+    <tr>
+        <td rowspan="2">Row 1-2, Col 1</td>
+        <td>Row 1, Col 2</td>
+        <td>Row 1, Col 3</td>
+        <td>Row 1, Col 4</td>
+    </tr>
+
+    <tr>
+        <td colspan="2" rowspan="2">Row 2-3, Col 2-3</td>
+        <td>Row 2, Col 4</td>
+    </tr>
+
+    
+    <tr>
+        <td>Row 3, Col 1</td>
+        <td>Row 3, Col 4</td>
+    </tr>
+
+    
+    <tr>
+        <td>Row 4, Col 1</td>
+        <td>Row 4, Col 2</td>
+        <td colspan="2">Row 4, Col 3-4</td>
+    </tr>
+
+</table>
+<br> <br>
+
+    <title>Nested Layout Table</title>
+</head>
+<body>
+
+<table border="2" width="90%" cellspacing="3" cellpadding="15">
+
+   
+    <tr>
+        <td rowspan="9">A</td>
+        <td rowspan="8">B</td>
+        <td rowspan="7">C</td>
+        <td rowspan="6">D</td>
+        <td rowspan="5">E</td>
+        <td rowspan="4">F</td>
+
+        <td>AH</td>
+
+        <td rowspan="4">H</td>
+        <td rowspan="5">I</td>
+        <td rowspan="6">J</td>
+        <td rowspan="7">K</td>
+        <td rowspan="8">L</td>
+        <td rowspan="9">M</td>
+    </tr>
+
+    <tr>
+        <td>G</td>
+    </tr>
+
+    <tr>
+        <td>GH</td>
+    </tr>
+
+    <tr>
+        <td>N</td>
+    </tr>
+
+    <tr>
+        <td colspan="3">O</td>
+    </tr>
+
+    <tr>
+        <td colspan="5">P</td>
+    </tr>
+
+    <tr>
+        <td colspan="7">Q</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">R</td>
+        <td>S</td>
+        <td>T</td>
+        <td colspan="2">U</td>
+        <td>V</td>
+        <td>W</td>
+        <td colspan="2">X</td>
+    </tr>
+
+    <tr>
+        <td colspan="11">Y</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">Z</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td colspan="2">5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+    </tr>
+
+</table>
+<br> <br>
+<table style="border:3px solid #444; border-collapse:collapse; width:95%; margin:auto; font-family:Times New Roman;"
+       cellpadding="10">
+  
+  <tr>
+    <th style="border:1px solid #444;">Day/Period</th>
+    <th style="border:1px solid #444;">I<br>9:30-10:20</th>
+    <th style="border:1px solid #444;">II<br>10:20-11:10</th>
+    <th style="border:1px solid #444;">III<br>11:10-12:00</th>
+    <th style="border:1px solid #444;">12:00-12:40</th>
+    <th style="border:1px solid #444;">IV<br>12:40-1:30</th>
+    <th style="border:1px solid #444;">V<br>1:30-2:20</th>
+    <th style="border:1px solid #444;">VI<br>2:20-3:10</th>
+    <th style="border:1px solid #444;">VII<br>3:10-4:00</th>
+  </tr>
+
+  <!-- Monday -->
+  <tr>
+    <th style="border:1px solid #444;">Monday</th>
+    <td style="border:1px solid #444; text-align:center;">Eng</td>
+    <td style="border:1px solid #444; text-align:center;">Mat</td>
+    <td style="border:1px solid #444; text-align:center;">Che</td>
+
+    <td style="border:1px solid #444; text-align:center; font-weight:bold;" rowspan="6">
+      L<br>U<br>N<br>C<br>H
+    </td>
+
+    <td style="border:1px solid #444;"></td>
+    <td style="border:1px solid #444; text-align:center;" colspan="2">LAB</td>
+    <td style="border:1px solid #444; text-align:center;">Phy</td>
+  </tr>
+
+  
+  <tr>
+    <th style="border:1px solid #444;">Tuesday</th>
+    <td style="border:1px solid #444; text-align:center;" colspan="3">LAB</td>
+    <td style="border:1px solid #444; text-align:center;">Eng</td>
+    <td style="border:1px solid #444; text-align:center;">Che</td>
+    <td style="border:1px solid #444; text-align:center;">Mat</td>
+    <td style="border:1px solid #444; text-align:center;">SPORTS</td>
+  </tr>
+
+ 
+  <tr>
+    <th style="border:1px solid #444;">Wednesday</th>
+    <td style="border:1px solid #444; text-align:center;">Mat</td>
+    <td style="border:1px solid #444; text-align:center;">phy</td>
+    <td style="border:1px solid #444; text-align:center;">Eng</td>
+    <td style="border:1px solid #444; text-align:center;">Che</td>
+    <td style="border:1px solid #444; text-align:center;" colspan="3">LIBRARY</td>
+  </tr>
+
+  
+  <tr>
+    <th style="border:1px solid #444;">Thursday</th>
+    <td style="border:1px solid #444; text-align:center;">Phy</td>
+    <td style="border:1px solid #444; text-align:center;">Eng</td>
+    <td style="border:1px solid #444; text-align:center;">Che</td>
+    <td style="border:1px solid #444; text-align:center;" colspan="3">LAB</td>
+    <td style="border:1px solid #444; text-align:center;">Mat</td>
+  </tr>
+
+  
+  <tr>
+    <th style="border:1px solid #444;">Friday</th>
+    <td style="border:1px solid #444; text-align:center;" colspan="3">LAB</td>
+    <td style="border:1px solid #444; text-align:center;">Mat</td>
+    <td style="border:1px solid #444; text-align:center;">Che</td>
+    <td style="border:1px solid #444; text-align:center;">Eng</td>
+    <td style="border:1px solid #444; text-align:center;">Phy</td>
+  </tr>
+
+  
+  <tr>
+    <th style="border:1px solid #444;">Saturday</th>
+    <td style="border:1px solid #444; text-align:center;">Eng</td>
+    <td style="border:1px solid #444; text-align:center;">Che</td>
+    <td style="border:1px solid #444; text-align:center;">Mat</td>
+    <td style="border:1px solid #444; text-align:center;" colspan="3">SEMINAR</td>
+    <td style="border:1px solid #444; text-align:center;">SPORTS</td>
+  </tr>
+
+</table>
+
+
+</body>
+</html>
