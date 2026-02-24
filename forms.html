@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Module 4 - Forms</title>
+</head>
+<body>
+
+    <h1>User Registration Form</h1>
+    <form>
+
+    <label >Name:</label>
+    <input type="text">
+    <br><br>
+
+    <label >Email:</label>
+    <input type="email" required>
+    <br><br>
+
+    <label >Password:</label>
+    <input type="password" >
+    <br><br>
+
+    <label> Date of Birth:</label>
+    <input type="date" >
+    <br><br>
+
+    <label>Profile Picture:</label>
+    <input type="file" >
+    <br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+<h2>User Preferences</h2>
+<form> 
+    <label >About Me:</label><br>
+<textarea rows="4" cols="40" > </textarea>
+<br><br>
+
+<label >Country:</label>
+<select >
+    <option value="china">China</option>
+    <option value="usa">USA</option>
+    <option value="germany">Germany</option>
+</select>
+<br><br>
+    <fieldset>
+    <legend>Contact Preference</legend>
+
+       <input type="radio" name="contact" value="email">
+        Email
+  
+        <input type="radio" name="contact" value="phone">
+        Phone
+</fieldset>
+<br><br>
+
+<form 
+  action="https://example.com/submit" 
+  method="POST" 
+  target="_blank" 
+  autocomplete="off">
+
+  <label>Email:</label>
+  <input type="email" required>
+
+  <br><br>
+
+  <input type="submit" value="Send">
+</form>
+
+<h2>Survey Form</h2>
+<form>
+
+  
+  <label>Username:</label>
+  <input 
+    type="text" 
+    maxlength="10"
+    required>
+  <br><br>
+
+
+  <label >Age:</label>
+  <input 
+    type="number"
+    min="18"
+    max="60">
+  <br><br>
+
+  
+  <label >Favorite Programming Language:</label>
+  <input 
+    type="text"
+    list="languages">
+
+  <datalist id="languages">
+    <option value="HTML">
+    <option value="CSS">
+    <option value="JavaScript">
+    <option value="Python">
+  </datalist>
+
+  <br><br>
+
+</form>
+</body>
+</html>
